@@ -2,9 +2,10 @@
   "name": "simple-webpack-boilerplate",
   "version": "1.0.0",
   "description": "Webpack4 + ES6 + LESS + PostCSS Boilerplate",
-  "main": "./src/index.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -p",
+    "dev": "webpack-dev-server -d --content-base dist"
   },
   "repository": {
     "type": "git",
