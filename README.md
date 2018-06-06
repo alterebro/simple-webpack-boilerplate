@@ -15,7 +15,6 @@ cd simple-webpack-boilerplate
 
 # Install dependencies
 npm install
-npm install webpack webpack-dev-server -g
 ```
 
 ### Dev
