@@ -4,8 +4,8 @@
   "description": "Webpack4 + ES6 + LESS + PostCSS Boilerplate",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack -p",
-    "dev": "webpack-dev-server -d --content-base dist"
+    "build": "./node_modules/.bin/webpack -p",
+    "dev": "./node_modules/.bin/webpack-dev-server -d --content-base dist --port 8081"
   },
   "repository": {
     "type": "git",
